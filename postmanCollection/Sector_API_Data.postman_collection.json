@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "6a9aeb39-27fc-4974-8d59-5370e357057a",
+		"name": "Sector_API_Data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30616070"
+	},
+	"item": [
+		{
+			"name": "listSymbols",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"indexName\" : \"Nifty Financial Services 25/50\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/api/listSymbols",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"listSymbols"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Nifty Financial Services 25/50",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"indexName\" : \"Nifty Financial Services 25/50\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/api/listSymbols",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api",
+								"listSymbols"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1810"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 10:45:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"indexConstituents\": [\n        {\n            \"symbol\": \"SHRIRAMFIN\",\n            \"displayName\": \"SHRIRAMFIN\",\n            \"ltp\": 1935.2,\n            \"close\": null,\n            \"changePct\": 7.65\n        },\n        {\n            \"symbol\": \"AXISBANK\",\n            \"displayName\": \"AXISBANK\",\n            \"ltp\": 1002.75,\n            \"close\": null,\n            \"changePct\": 3.16\n        },\n        {\n            \"symbol\": \"PFC\",\n            \"displayName\": \"PFC\",\n            \"ltp\": 237.55,\n            \"close\": null,\n            \"changePct\": 3.13\n        },\n        {\n            \"symbol\": \"CHOLAFIN\",\n            \"displayName\": \"CHOLAFIN\",\n            \"ltp\": 1168.05,\n            \"close\": null,\n            \"changePct\": 2.96\n        },\n        {\n            \"symbol\": \"RECLTD\",\n            \"displayName\": \"RECLTD\",\n            \"ltp\": 273.05,\n            \"close\": null,\n            \"changePct\": 2.75\n        },\n        {\n            \"symbol\": \"SBIN\",\n            \"displayName\": \"SBIN\",\n            \"ltp\": 561.15,\n            \"close\": null,\n            \"changePct\": 2.59\n        },\n        {\n            \"symbol\": \"SBICARD\",\n            \"displayName\": \"SBICARD\",\n            \"ltp\": 790.4,\n            \"close\": null,\n            \"changePct\": 2.32\n        },\n        {\n            \"symbol\": \"MUTHOOTFIN\",\n            \"displayName\": \"MUTHOOTFIN\",\n            \"ltp\": 1290.65,\n            \"close\": null,\n            \"changePct\": 2.2\n        },\n        {\n            \"symbol\": \"ICICIPRULI\",\n            \"displayName\": \"ICICIPRULI\",\n            \"ltp\": 519,\n            \"close\": null,\n            \"changePct\": 1.6\n        },\n        {\n            \"symbol\": \"HDFCAMC\",\n            \"displayName\": \"HDFCAMC\",\n            \"ltp\": 2752.2,\n            \"close\": null,\n            \"changePct\": 1.51\n        },\n        {\n            \"symbol\": \"IEX\",\n            \"displayName\": \"IEX\",\n            \"ltp\": 124.95,\n            \"close\": null,\n            \"changePct\": 1.22\n        },\n        {\n            \"symbol\": \"BAJFINANCE\",\n            \"displayName\": \"BAJFINANCE\",\n            \"ltp\": 7507.2,\n            \"close\": null,\n            \"changePct\": 1.15\n        },\n        {\n            \"symbol\": \"LICHSGFIN\",\n            \"displayName\": \"LICHSGFIN\",\n            \"ltp\": 440.05,\n            \"close\": null,\n            \"changePct\": 0.5\n        },\n        {\n            \"symbol\": \"HDFCLIFE\",\n            \"displayName\": \"HDFCLIFE\",\n            \"ltp\": 608.65,\n            \"close\": null,\n            \"changePct\": 0.46\n        },\n        {\n            \"symbol\": \"KOTAKBANK\",\n            \"displayName\": \"KOTAKBANK\",\n            \"ltp\": 1702.7,\n            \"close\": null,\n            \"changePct\": 0.46\n        },\n        {\n            \"symbol\": \"ICICIBANK\",\n            \"displayName\": \"ICICIBANK\",\n            \"ltp\": 912.75,\n            \"close\": null,\n            \"changePct\": 0.45\n        },\n        {\n            \"symbol\": \"BAJAJFINSV\",\n            \"displayName\": \"BAJAJFINSV\",\n            \"ltp\": 1566.4,\n            \"close\": null,\n            \"changePct\": 0.41\n        },\n        {\n            \"symbol\": \"HDFCBANK\",\n            \"displayName\": \"HDFCBANK\",\n            \"ltp\": 1469.15,\n            \"close\": null,\n            \"changePct\": 0.39\n        },\n        {\n            \"symbol\": \"ICICIGI\",\n            \"displayName\": \"ICICIGI\",\n            \"ltp\": 1357.35,\n            \"close\": null,\n            \"changePct\": 0.13\n        },\n        {\n            \"symbol\": \"SBILIFE\",\n            \"displayName\": \"SBILIFE\",\n            \"ltp\": 1302.9,\n            \"close\": null,\n            \"changePct\": -0.21\n        }\n    ]\n}"
+				},
+				{
+					"name": "PVT Bank",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"indexName\" : \"PVT Bank\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/api/listSymbols",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api",
+								"listSymbols"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "929"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 13:15:07 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"indexConstituents\": [\n        {\n            \"symbol\": \"RBLBANK\",\n            \"displayName\": \"RBLBANK\",\n            \"ltp\": 226.2,\n            \"close\": null,\n            \"changePct\": 4.55\n        },\n        {\n            \"symbol\": \"AXISBANK\",\n            \"displayName\": \"AXISBANK\",\n            \"ltp\": 1002.75,\n            \"close\": null,\n            \"changePct\": 3.16\n        },\n        {\n            \"symbol\": \"CUB\",\n            \"displayName\": \"CUB\",\n            \"ltp\": 133.4,\n            \"close\": null,\n            \"changePct\": 3.09\n        },\n        {\n            \"symbol\": \"INDUSINDBK\",\n            \"displayName\": \"INDUSINDBK\",\n            \"ltp\": 1441.3,\n            \"close\": null,\n            \"changePct\": 1.88\n        },\n        {\n            \"symbol\": \"IDFCFIRSTB\",\n            \"displayName\": \"IDFCFIRSTB\",\n            \"ltp\": 86.05,\n            \"close\": null,\n            \"changePct\": 1.29\n        },\n        {\n            \"symbol\": \"FEDERALBNK\",\n            \"displayName\": \"FEDERALBNK\",\n            \"ltp\": 139.55,\n            \"close\": null,\n            \"changePct\": 1.01\n        },\n        {\n            \"symbol\": \"BANDHANBNK\",\n            \"displayName\": \"BANDHANBNK\",\n            \"ltp\": 214.4,\n            \"close\": null,\n            \"changePct\": 0.92\n        },\n        {\n            \"symbol\": \"KOTAKBANK\",\n            \"displayName\": \"KOTAKBANK\",\n            \"ltp\": 1702.7,\n            \"close\": null,\n            \"changePct\": 0.46\n        },\n        {\n            \"symbol\": \"ICICIBANK\",\n            \"displayName\": \"ICICIBANK\",\n            \"ltp\": 912.75,\n            \"close\": null,\n            \"changePct\": 0.45\n        },\n        {\n            \"symbol\": \"HDFCBANK\",\n            \"displayName\": \"HDFCBANK\",\n            \"ltp\": 1469.15,\n            \"close\": null,\n            \"changePct\": 0.39\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "listAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/listAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"listAll"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "listAll",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/api/listAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api",
+								"listAll"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "294"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 27 Oct 2023 13:17:19 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"indexName\": [\n        \"PSU Bank\",\n        \"CONSTRUCTION\",\n        \"AUTOMOBILE\",\n        \"CONSUMER GOODS\",\n        \"Consumption\",\n        \"Energy\",\n        \"Nifty Consumer Durables\",\n        \"PHARMA\",\n        \"Nifty Financial Services 25/50\",\n        \"Nifty Healthcare Index\",\n        \"Nifty Oil & Gas\",\n        \"MEDIA & ENTERTAINMENT\",\n        \"PVT Bank\",\n        \"Nifty Financial Services\",\n        \"Bank Nifty\",\n        \"METALS\",\n        \"IT\"\n    ]\n}"
+				}
+			]
+		}
+	]
+}
